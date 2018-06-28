@@ -1,0 +1,1 @@
+Dom has studied Computer Science at Royal Holloway since 2016. In 2017 he worked on research with Holloway's System Security Research Lab. Since then has worked as a backend developer for the comp sci department. Dom is know for his strange software side projects, year as president of the rhul computing society and interest in a certain esoteric programming language.

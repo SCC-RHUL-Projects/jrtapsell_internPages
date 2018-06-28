@@ -1,0 +1,28 @@
+<h3>Bio</h3>
+<div id="bio">
+<img src="{{url}}" style="float: left;height: 10em"/>
+{{#markdown}}
+{{bio}}
+{{/markdown}}
+</div>
+
+<h3>Projects</h3>
+<div id="projects">
+<ul>
+    <li>
+        <h4>{{project}}</h4>
+        {{#markdown}}
+{{projectText}}
+        {{/markdown}}
+    </li>
+</ul>
+</div>
+
+{{#if links}}
+    <h3>Links</h3>
+    <ul>
+    {{#each links}}
+        <li><a href="{{this}}" rel="me">{{@key}}</a></li>
+    {{/each}}
+    </ul>
+{{/if}}

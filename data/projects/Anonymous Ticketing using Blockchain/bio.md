@@ -1,0 +1,4 @@
+Anonymous ticketing, whether deployed in a high throughput and low latency environments like transport networks is an enormous challenge. As per requirements of such a system, for example, TfL requires the ticket processing within 300-500 milliseconds, any anonymous ticketing solution has to be efficient and does not need an internet connection (in most cases. In this project, we explore the potential of deploying an efficient ticketing framework that utilises blockchain (smart-contracts) technology to provide anonymity but within the strict requirements of the transport systems. To research methods of implementing an anonymous ticketing system using blockchain technology.
+-   Evaluating the found methods and selecting the best option.
+-   Designing a solution based on the method and implementing the solution by creating a software system/application that is usable and sustainable.
+-   The designed solution should be efficient, reliable and secure

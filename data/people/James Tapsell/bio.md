@@ -1,0 +1,1 @@
+James is a student at Royal Holloway, University of London, studying MSci Computer Science (Information Security) with a year in industry. He has taken part in 2 different projects with the Smart Card centre, and he enjoys both building new secure things, as well as finding ways to break existing things. He is looking forward to completing his degree after his year in industry.

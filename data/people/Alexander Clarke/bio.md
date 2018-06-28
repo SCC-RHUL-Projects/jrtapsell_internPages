@@ -1,0 +1,1 @@
+Alex is a third year Computing (Software Engineering) undergraduate, who's been on the committee for the Royal Holloway Computing Society for the past two years, and joined the ISG as an undergraduate researcher in 2018 under the supervision of Professor Konstantinos Markantonakis. He's a huge fan of the open source community, and creates open source games in his free time.

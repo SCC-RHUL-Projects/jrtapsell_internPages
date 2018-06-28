@@ -1,0 +1,1 @@
+Before joining Royal Holloway in 2016, Fabio has gained experience in computer science in Switzerland. During his stay he is studying software engineering and tries to do sports along side his studies (tries being the operative word). At the moment he is engaging with the Information Security Group for research purposes.

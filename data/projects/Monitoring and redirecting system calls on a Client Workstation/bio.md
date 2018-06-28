@@ -1,0 +1,6 @@
+Monitoring events of a workstation is a difficult task since we have to decide on what level we want to track it. On the one hand, if the monitoring is on a superficial level, the system could be exploited by the user. Whereas when everything is monitored the amount of information gathered is on a scale which is not feasible to save. So, a trade-off between the vast amount of data tracked and what is collected is necessary. After the decision has been made about what is relevant to the privacy and security of the system this data is stored on a server which records these chains of events.
+
+The primary objectives for this project are the following
+-   Collect activities on a selected Operating System at a granular level (Kernel Level)
+-   Filter the activity information and report only the most crucial events that have an impact on the overall security and privacy aspects
+-   The reporting of the games will be structured as an event provenance that would be consumed to generate enterprise-wide causality chain.

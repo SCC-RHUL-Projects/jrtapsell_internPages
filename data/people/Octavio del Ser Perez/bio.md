@@ -1,0 +1,1 @@
+After finishing school Octavio took a gap year working and volunteering around the world. Having found an interest in Computer Science, he decided to join Royal Holloway in 2017. Since then he has learnt the basics of programming,  produced  projects participated in hackathons. He is now working on his first research opportunity.

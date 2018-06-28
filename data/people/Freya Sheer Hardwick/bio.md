@@ -1,0 +1,1 @@
+Freya joined Royal Holloway in 2016 and, since then, has worked on research with the Smart Card Centre, as a software engineer for the university development house, and as a security analyst in the private sector. Helping out at open days, applicant visit days, and accidentally appearing in promotional material, she's easiest to find when you're not looking for her.
