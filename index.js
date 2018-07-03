@@ -10,15 +10,25 @@ hbs.registerHelper('stubify', (p)=> {
 });
 
 people.forEach(p => {
-    const {name, project} = p;
+    const {name, projects} = p;
     let newRL = `data/people/${name}`;
-    const projectText = fs.readFileSync(`data/projects/${project}/bio.md`).toString();
     if (fs.existsSync(newRL + "/bio.md")) {
-            p.bio = fs.readFileSync(newRL + "/bio.md").toString()
+        p.bio = fs.readFileSync(newRL + "/bio.md").toString()
     } else {
-            p.bio = `${p.name} has many skills, but writing bios appears to not be one of them.`
+        p.bio = `${p.name} has many skills, but writing bios appears to not be one of them.`
     }
-    p.projectText = projectText;
+
+    Object.keys(projects).forEach((k) => {
+        const v = projects[k];
+        const pData = {};
+        pData.name = v;
+        pData.text = fs.readFileSync(`data/projects/${v}/bio.md`).toString();
+        const projectPDF = fs.readFileSync(`data/projects/${v}/url.txt`).toString().trim();
+        if (projectPDF !== "") {
+            pData.pdf = projectPDF;
+        }
+        p.projects[k] = pData
+    })
 });
 
 const template = hbs.compile(fs.readFileSync("hbs/person.hbs").toString());
@@ -31,6 +41,17 @@ people.forEach(p => {
     updatePage(pageID, html);
 });
 
-let listingHTML = indexTemplate(people);
+
+const structuredPeople = {};
+
+people.forEach((person) => {
+    Object.keys(person.projects).forEach((year) => {
+        if (!(year in structuredPeople)) {
+            structuredPeople[year] = []
+        }
+        structuredPeople[year].push(person)
+    })
+});
+let listingHTML = indexTemplate(structuredPeople);
 fs.writeFileSync(`out/index.html`, listingHTML);
 updatePage(1803, listingHTML);

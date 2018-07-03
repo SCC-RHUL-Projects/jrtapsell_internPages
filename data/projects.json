@@ -1,81 +1,114 @@
 [
     {
         "name": "Alexander Clarke",
-        "project": "SHAWN Wireless Demo Automation",
         "url": "https://scc.rhul.ac.uk/files/2018/06/cropped.jpeg",
-        "pageID": 1809
+        "pageID": 1809,
+        "projects": {
+            "2018": "SHAWN Wireless Demo Automation"
+        }
     },
     {
         "name": "Andrew Nicolalde",
-        "project": "GDPR HUD: A Better Security Policy Visualiser for Enterprise Users.",
         "url": "https://scc.rhul.ac.uk/files/2018/06/cropped-1.jpeg",
         "pageID": 1814,
         "links": {
             "Keybase": "https://keybase.io/andrewnicolalde"
+        },
+        "projects": {
+            "2018": "GDPR HUD: A Better Security Policy Visualiser for Enterprise Users."
         }
     },
     {
         "name": "Chinmay Dabke",
-        "project": "Anonymous Ticketing using Blockchain",
         "url": "https://scc.rhul.ac.uk/files/2018/06/cropped-2.jpeg",
-        "pageID": 1818
+        "pageID": 1818,
+        "projects": {
+            "2018": "Anonymous Ticketing using Blockchain"
+        }
     },
     {
         "name": "Dominic Hall",
-        "project": "Database Log Files Privacy Assessment and Provenance Generation",
         "url": "https://scc.rhul.ac.uk/files/2018/06/cropped-3.jpeg",
-        "pageID": 1820
+        "pageID": 1820,
+        "projects": {
+            "2018": "Database Log Files Privacy Assessment and Provenance Generation"
+        }
     },
     {
         "name": "Elliot Burke-Perrin",
-        "project": "Detecting Consumer-Oriented Privacy Violations as part of the GDPR User Portal.",
         "url": "https://scc.rhul.ac.uk/files/2018/06/cropped-10.jpeg",
-        "pageID": 1822
+        "pageID": 1822,
+        "projects": {
+            "2018": "Detecting Consumer-Oriented Privacy Violations as part of the GDPR User Portal."
+        }
     },
     {
         "name": "Fabio Oesch",
-        "project": "Monitoring and redirecting system calls on a Client Workstation",
         "url": "https://scc.rhul.ac.uk/files/2018/06/cropped-4.jpeg",
-        "pageID": 1824
+        "pageID": 1824,
+        "projects": {
+            "2018": "Monitoring and redirecting system calls on a Client Workstation"
+        }
     },
     {
         "name": "Freya Sheer Hardwick",
-        "project": "Causality in Enterprise System Activities",
         "url": "https://scc.rhul.ac.uk/files/2018/06/cropped-5.jpeg",
-        "pageID": 1826
+        "pageID": 1826,
+        "projects": {
+            "2018": "Causality in Enterprise System Activities"
+        }
     },
     {
         "name": "James Tapsell",
-        "project": "Data Provenance for Multi-Database Servers Enterprise Architecture",
         "url": "https://scc.rhul.ac.uk/files/2018/06/cropped-6.jpeg",
         "links": {
             "Personal site": "https://www.jrtapsell.co.uk",
             "Keybase": "https://keybase.io/jrtapsell"
         },
-        "pageID": 1828
+        "pageID": 1828,
+        "projects": {
+            "2017": "Scalable NoSQL Provenance Logging",
+            "2018": "Data Provenance for Multi-Database Servers Enterprise Architecture"
+        }
     },
     {
         "name": "John Samuels",
-        "project": "Blockchain-Based Enterprise- and Consumer-Centric Data Provenance Integrity and Auditability",
         "url": "https://scc.rhul.ac.uk/files/2018/06/placeholder.png",
-        "pageID": 1830
+        "pageID": 1830,
+        "projects": {
+            "2018": "Blockchain-Based Enterprise- and Consumer-Centric Data Provenance Integrity and Auditability"
+        }
     },
     {
         "name": "Julia Meister",
-        "project": "Deep Real-time GDPR Compliance Auditing & Malicious Activity Detection in an Enterprise System",
         "url": "https://scc.rhul.ac.uk/files/2018/06/cropped-7.jpeg",
-        "pageID": 1832
+        "pageID": 1832,
+        "projects": {
+            "2018": "Deep Real-time GDPR Compliance Auditing & Malicious Activity Detection in an Enterprise System"
+        }
     },
     {
         "name": "Kaloian Chokanov",
-        "project": "Customer-Oriented GDRP compliance visualisation",
         "url": "https://scc.rhul.ac.uk/files/2018/06/cropped-8.jpeg",
-        "pageID": 1834
+        "pageID": 1834,
+        "projects": {
+            "2018": "Customer-Oriented GDPR compliance visualisation"
+        }
     },
     {
         "name": "Octavio del Ser Perez",
-        "project": "Transport Simulation Platform as Synthetic Data Generator",
         "url": "https://scc.rhul.ac.uk/files/2018/06/cropped-9.jpeg",
-        "pageID": 1837
+        "pageID": 1837,
+        "projects": {
+            "2018": "Transport Simulation Platform as Synthetic Data Generator"
+        }
+    },
+    {
+        "name": "Jack Barker",
+        "url": "https://scc.rhul.ac.uk/files/2018/06/placeholder.png",
+        "pageID": 1959,
+        "projects": {
+            "2017": "Vulnerabilities in Geofencing Strategies Used to Prevent the Flight of Unauthorized Aerial Drones in Restricted Airspace"
+        }
     }
 ]

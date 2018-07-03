@@ -7,11 +7,14 @@ const client = wordpress.createClient({
     rejectUnauthorized: false
 });
 
-module.exports = {updatePage: (id, content) => {
-        client.editPost(id, {"content": content}, (err) => {
-            if (err) {
-                console.log("Failed", err)
-            }
-        })
+module.exports = {
+    updatePage: (id, content) => {
+        if (true) {
+            client.editPost(id, {"content": content}, (err) => {
+                if (err) {
+                    console.log("Failed", err)
+                }
+            })
+        }
     }
 };

@@ -1,10 +1,20 @@
 <h1>Interns</h1>
-
+<table style="background: transparent;">
 {{#each this}}
-<a href="./{{stubify name}}/">
-<div class="personCard" style="display: inline-block;padding: 0.5em 1em;width: 10em;margin: auto">
-    <img src="{{url}}" style="height: 10em;padding: 1em;"/>
-    <div style="text-align: center">{{name}}</div>
-</div>
-</a>
+    <tr>
+        <td>
+    <div id="jrt_year-{{@key}}" class="jrt_year-sector">
+        <h2>{{@key}}</h2>
+    {{#each this}}
+            <div style="width: 10em;float: left;" class="jrt_tile">
+                <a href="./{{stubify name}}/">
+                    <img src="{{url}}" class="jrt_personIcon" style="width: 10em;"/>
+                    <div class="jrt_personName" style="text-align: center;">{{name}}</div>
+                </a>
+            </div>
+    {{/each}}
+    </div>
+        </td>
+    </tr>
 {{/each}}
+</table>
