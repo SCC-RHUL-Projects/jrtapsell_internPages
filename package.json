@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +16,8 @@
     "lodash": "^4.17.10",
     "request": "^2.87.0",
     "wordpress": "^1.4.1",
-    "wpapi": "^1.1.2"
-  }
+    "wpapi": "^1.1.2",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
