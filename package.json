@@ -12,7 +12,7 @@
     "handlebars": "^4.0.11",
     "helper-markdown": "^1.0.0",
     "lodash": "^4.17.10",
-    "request": "^2.87.0",
+    "request": "^2.88.2",
     "wordpress": "^1.4.1",
     "wpapi": "^1.1.2"
   }
